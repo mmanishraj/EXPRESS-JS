@@ -7,6 +7,6 @@ const userSchema = new mongoose.Schema({
     age:{type:Number},
     address:{type:String}
 })
-
+//h
 
 module.exports=mongoose.model('User',userSchema)
